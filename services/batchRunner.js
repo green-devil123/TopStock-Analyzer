@@ -3,7 +3,18 @@ import { generateDateRanges } from "../utils/dateUtils.js";
 import { fetchAndSavePrices } from "./fetcher.js";
 
 const STOCKS = [
+  "AAPL",
+  "GOOGL",
+  "MSFT",
+  "AMZN",
+  "TSLA",
+  "META",
+  "NVDA",
+  "NFLX",
   "VBL.NS",
+  "RELIANCE.NS",
+  "TCS.NS",
+  "INFY.NS"
 ];
 
 const limit = pLimit(5);
